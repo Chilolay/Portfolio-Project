@@ -1,12 +1,12 @@
 .hero {
     background: #F9F7FE;
-    text-align: center;
-    padding: 100px 10px;
+    padding: 80px 10px;
 }
 
 .hero p {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
 }
 
 .hero h1 {
@@ -21,11 +21,62 @@
     font-weight: 200;
 }
 
-.hero .btn {
-    padding: 15px 10px;
-    background-color: rgb(152, 192, 255);
+.imgcontainer {
+    margin: 35px 10px;
 }
 
-.hero .btn:hover {
-    background-color: rgb(99, 159, 255);
+.about {
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 160px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.project-link {
+  background: rgb(103, 176, 253);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.contact-link {
+    color: rgb(103, 176, 253);
+    border: 1px solid rgb(103, 176, 253);
+}
+
+.project-link:hover{
+    color: black;
+    background-color: rgb(55, 147, 244);
+}
+
+.contact-link:hover {
+    background-color: rgb(55, 147, 244);
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .about {
+        padding: 15px;
+    }
+    .hero p {
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+    .hero h1 {
+        font-size: 42px;
+    }
+    .hero h2 {
+        font-size: 22px;
+    }
 }
