@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #88CDFC;
+    --secondary-color: #4eb4f9;
+    --boc-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
 .hero {
     background: #F9F7FE;
     padding: 80px 10px;
@@ -30,6 +36,33 @@
     padding: 40px 160px;
 }
 
+.about p {
+    font-size: 18px;
+}
+
+.project-h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -44,25 +77,19 @@
   text-transform: capitalize;
 }
 
-.project-link {
-  background: rgb(103, 176, 253);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  color: white;
+.primary-link {
+  background-color: var(--primary-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
 }
 
-.contact-link {
-    color: rgb(103, 176, 253);
-    border: 1px solid rgb(103, 176, 253);
-}
-
-.project-link:hover{
-    color: black;
-    background-color: rgb(55, 147, 244);
-}
-
-.contact-link:hover {
-    background-color: rgb(55, 147, 244);
-    color: black;
+.primary-link:hover {
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 @media (max-width: 576px) {
@@ -78,5 +105,8 @@
     }
     .hero h2 {
         font-size: 22px;
+    }
+    .wrapper {
+        text-align: center;
     }
 }

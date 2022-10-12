@@ -1,12 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chloe Boyd's Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/b67ff2b46c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" title="Homepage"
+          >Chloe Boyd</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="projects.html"
+                title="Chloe Boyd's Projects"
+                >My Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact Chloe Boyd"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <h1 class="text-center project-h1">My Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="images/weatherapp.png"
+              class="img-fluid rounded d-none d-sm-block"
+              alt="Weather App"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2 class="mb-3">Weather App</h2>
+            <p>
+              I built this Weather app as my final project for the SheCodes Plus
+              module. It was my first time using Javascript to build a webpage
+              and while it was challenging at times I really enjoyed making it.
+            </p>
+            <div class="mt-5">
+              <a
+                href="https://super-manatee-939df1.netlify.app/"
+                class="primary-link"
+                title="Weather App"
+                target="_blank"
+              >
+                Launch Weather App
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <h2 class="mb-3">CSS Snowman</h2>
+            <p>
+              This CSS Snowman was my first time diving into CSS art and I
+              created him using mainly HTML and CSS. He was made while I was
+              still learning so he's a little broken on certain screens but I'm
+              still proud of the work I put into this project.
+            </p>
+            <div class="mt-5">
+              <a
+                href="https://chilolay.com/Snowman/"
+                class="primary-link"
+                title="CSS Snowman"
+                target="_blank"
+              >
+                Launch CSS Snowman
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/snowman-still.png"
+              alt="Snowman"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-sm-6">
+            <img
+              src="images/brickbreaker.png"
+              alt="Brick Breaker Game"
+              class="img-fluid rounded d-none d-sm-block"
+            />
+          </div>
+          <div class="col-sm-6">
+            <h2 class="mb-3">Brick Breaker Game</h2>
+            <p>
+              Everyone loves games! This simple JavaScript brick breaker game
+              was my first time writing any Javascript. I followed a tutorial to
+              build this without much prior knowledge of Javascript and it came
+              out pretty good! Looking back on this project now I've come a long
+              way.
+            </p>
+            <div class="mt-5">
+              <a
+                href="https://chilolay.com/sturdy-octo-potato/"
+                class="primary-link"
+                title="Brick Breaker Game"
+                target="_blank"
+              >
+                Launch Brick Breaker
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
