@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #88CDFC;
-    --secondary-color: #4eb4f9;
+    --primary-color: #54aae3;
+    --secondary-color: #2f84bd;
     --boc-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -40,17 +40,17 @@
     font-size: 18px;
 }
 
-.project-h1 {
+.wrapper {
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper h1 {
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    margin-bottom: 80px;
-}
-
-.wrapper {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-family: 'Montserrat', sans-serif;
+    background: #F9F7FE;
+    padding: 90px 10px;
 }
 
 .wrapper h2 {
@@ -77,11 +77,15 @@
   text-transform: capitalize;
 }
 
+nav .navbar-nav .nav-link.active {
+    color: var(--secondary-color);
+}
+
 .primary-link {
   background-color: var(--primary-color);
   text-decoration: none;
   text-transform: capitalize;
-  color: black;
+  color: white;
   padding: 20px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
@@ -92,9 +96,33 @@
     color: white;
 }
 
+.contact {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact h1 {
+    margin: 35px;
+    font-size: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 25px;
+    color: var(--primary-color);
+}
+
+.contact a:hover {
+    color: var(--secondary-color);
+}
+
 @media (max-width: 576px) {
     .about {
         padding: 15px;
+    }
+    .hero {
+        padding-bottom: 50px;
     }
     .hero p {
         margin-bottom: 5px;
@@ -108,5 +136,8 @@
     }
     .wrapper {
         text-align: center;
+    }
+    .contact a {
+        display: block;
     }
 }
