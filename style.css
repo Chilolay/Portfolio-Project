@@ -155,4 +155,7 @@ nav .navbar-nav .nav-link.active {
   .contact a {
     display: block;
   }
+  .codedby {
+    margin: 0 15px;
+  }
 }
